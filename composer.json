@@ -21,6 +21,7 @@
   "require": {
     "php": ">=5.3.2",
     "tasker/tasker": ">=2.0",
+    "tasker/tasker-concat-files": ">=1.1",
     "tedivm/jshrink": "0.5.*"
   },
 
