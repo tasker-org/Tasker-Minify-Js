@@ -73,6 +73,6 @@ class MinifyJsTask extends Task
 	 */
 	protected function getMinified($content, $config)
 	{
-		return Minifier::minify($content, $config);
+		return Minifier::minify($content, (array) $config);
 	}
 }
